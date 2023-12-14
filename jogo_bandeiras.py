@@ -17,7 +17,7 @@ st.write("Tente adivinhar a bandeira do país!")
 
   if st.button("Iniciar Jogo"):
     st.image(bandeira_atual)
-    palpite = st.text_input("Digite um páis: ")
+    palpite = st.text_input("Digite um país: ")
     if palpite == bandeira_atual:
       print("Acertou!")
     else:
