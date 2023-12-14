@@ -15,7 +15,6 @@ bandeira_atual = random.choice(bandeiras)
 st.title("Jogo de Adivinhação de Bandeiras")
 st.write("Tente adivinhar a bandeira do país!")
 
-while True: 
   if st.button("Iniciar Jogo"):
     st.image(bandeira_atual)
     palpite = st.text_input("Digite um páis: ")
